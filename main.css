@@ -1,0 +1,163 @@
+:root {
+    --primary-text: #1a2e55;
+    --left-section-bg: #f9f9f9;
+    --right-section-bg: #e7ebef;
+    --chip-bg: #c6d1dd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transform-origin: 0px 0px 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text);
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    margin: 4px 0px;
+    border: 1px solid;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text);
+    /* text-decoration: underline; */
+}
+
+.emphasize {
+    font-weight: 500;
+}
+
+.fa-external-link-alt {
+    font-size: 12px;
+}
+
+.fa-google-play {
+    font-size: 13px;
+}
+
+/* letter size */
+.sheet {
+    width: 215.9mm;
+    height: 279.4mm;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "left-section right-section";
+    overflow: hidden;
+}
+
+/* A4 size */
+.sheet {
+    width: 210mm;
+    height: 297mm;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "left-section right-section";
+}
+
+.name {
+    font-family: "Manrope", sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.left-section {
+    grid-area: left-section;
+    padding: 2px 16px;
+    background-color: var(--left-section-bg);
+}
+
+.category__heading {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.category__subheading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 12px 0px 0px 0px;
+}
+
+.category__subheading--link {
+    text-decoration: none;
+}
+
+.contact__list li {
+    font-size: 14px;
+    padding: 4px;
+}
+
+.category__list {
+    margin: 8px 4px 4px 24px;
+    line-height: 140%;
+    list-style: disc;
+}
+
+.category__list li {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.category__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.category__items li {
+    background-color: var(--chip-bg);
+    border-radius: 3px;
+    margin: 4px;
+    padding: 4px 6px;
+    font-size: 14px;
+}
+
+.right-section {
+    grid-area: right-section;
+    background-color: var(--right-section-bg);
+    padding: 4px 16px;
+}
+
+.education {
+    line-height: 150%;
+    margin-top: 4px;
+}
+
+.education p:only-child {
+    font-weight: 500;
+}
+
+.education p:nth-child(2) {
+    font-size: 15px;
+}
+
+/* letter size */
+/* @media print {
+  body {
+    width: 215.9mm;
+    height: 279.4mm;
+    margin: 0mm 0mm 0mm 0mm;
+  }
+} */
+
+/* A4 size */
+@media print {
+    body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0mm 0mm 0mm 0mm;
+    }
+}
