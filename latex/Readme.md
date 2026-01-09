@@ -28,3 +28,16 @@
 
 4. Try formatting `resume.tex` and watch for any errors
 5. Open `resume.pdf` to make sure it renders correctly
+
+# Todo
+
+- Organize GitHub profile, add placeholders for projects
+  - Android app
+  - ChatGPT App
+- Make a lean Skills list
+- Rewrite points in STAR, XYZ and CAR format
+- Tools to make points concise
+  - https://hemingwayapp.com/
+  - https://quillbot.com/
+  - https://languagetool.org/paraphrasing-tool
+-
