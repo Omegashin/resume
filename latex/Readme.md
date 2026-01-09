@@ -23,7 +23,7 @@
 
 ```json
 "latex-workshop.formatting.latex": "latexindent"
-"latex-workshop.formatting.latexindent.path": "C:\texlive\2025\bin\windows\latexindent.exe"
+"latex-workshop.formatting.latexindent.path": "C:\\texlive\\2025\\bin\\windows\\latexindent.exe"
 ```
 
 4. Try formatting `resume.tex` and watch for any errors
