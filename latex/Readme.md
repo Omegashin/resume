@@ -41,3 +41,17 @@
   - https://quillbot.com/
   - https://languagetool.org/paraphrasing-tool
 -
+
+# Methods for bullet points
+
+If you have strong metrics → lean XYZ.
+​
+If space is tight → CAR (Challenge/Action/Result in one line).
+​
+If the story is complex or leadership-heavy → compressed STAR (implied Situation/Task, explicit Action/Result).
+
+Generic high‑impact bullet pattern (covers all three ideas):
+
+“[Action verb] [what you built/improved] to solve [challenge or goal], resulting in [quantified result or clear outcome].”
+
+https://github.com/matiassingers/awesome-readme
