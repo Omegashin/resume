@@ -31,16 +31,21 @@
 
 # Todo
 
-- Organize GitHub profile, add placeholders for projects
-  - Android app
-  - ChatGPT App
-- Make a lean Skills list
-- Rewrite points in STAR, XYZ and CAR format
+- Organize GitHub profile
+-
+- Add ChatGPT App project
+- Add missing terms
+
+  - Testing
+  - APIs
+  - Architecture
+  - Observability
+  -
+
 - Tools to make points concise
   - https://hemingwayapp.com/
   - https://quillbot.com/
   - https://languagetool.org/paraphrasing-tool
--
 
 # Methods for bullet points
 
